@@ -1,7 +1,60 @@
 /* Vos customisations des classes de Bootstrap */
+i{
+    color: #222;
+}
+.colorProjet{
+    background-color: #222;
+    color: #969696;
+}
+.colorRprojet{
+    color: #D9534F;
+}
+.titreBandeau{
+    font-family: 'Arvo', serif;
+    font-size: 3.5rem;
+    padding-top: 5%;
+}
+.conteneurBandeau{
+    background-image: url('./../images/hero-image.jpg');
+    background-size: cover;
+    background-position: top left;
+    text-align: center;
+}
+.codeBandeau{
+    padding: 4%;
+}
+.gras{
+    font-weight: bold;
+}
+.p-bandeau{
+    color: #fff;
+    font-family: 'Arial Narrow Bold';
+    font-size: 1rem;
+    text-align: center;
+    margin: 5% 0;
+}
+.btBandeau{
+    margin: 0 auto;
+    width: 27%;
+    padding: 6px;
+    font-size: 2rem;
+    background-color: #D9534F;
+}
 
+#who{
+    width: 59%;
+}
+#who .brand-med{
 
-
+}
+.titre{
+    color: #D9534F;
+    font-family: 'Arvo', serif;
+    font-size: 2rem;
+}
+#who .dvder{
+    border-color: #D9534F;
+}
 
 /* Responsive Styling */
 
