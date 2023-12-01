@@ -5,6 +5,9 @@ i{
     width: 100px;
     height: 100px;
 }
+hr{
+    border-top: 3px solid #D9534F;
+}
 .colorProjet{
     background-color: #222;
     color: #969696;
@@ -58,9 +61,6 @@ i{
 #who{
     width: 59%;
 }
-#who .brand-med{
-
-}
 .titre{
     color: #D9534F;
     font-family: 'Arvo', serif;
@@ -69,23 +69,38 @@ i{
 .dvder{
     border-color: #D9534F;
 }
-#btn-back-to-top {
+/* #btn-back-to-top {
     position: fixed;
     bottom: 20px;
     right: 20px;
     display: none;
+} */
+#get-involved{
+    background-color: #f2f2f2;
 }
 
 /* Responsive Styling */
 
-@media (max-width: 1199px) {
+/* @media (max-width: 1199px) {
 
 }
 
 @media (max-width: 991px) {
-
+    
 }
 
 @media (max-width: 767px) {
 
+} */
+@media (orientation: portrait) {
+    .titreBandeau{
+        font-size: 1.8rem;
+    }
+    .btBandeau{
+        margin: 0 auto;
+        width: 60%;
+        padding: 6px;
+        font-size: 1.5rem;
+        background-color: #D9534F;
+    }
 }
