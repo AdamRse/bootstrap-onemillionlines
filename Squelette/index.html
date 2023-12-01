@@ -23,8 +23,13 @@
   </head>
 
   <body>
+    <!-- Back to top button-->
+    <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    
     <nav class="navbar navbar-expand-lg" style="background-color: #222;">
-      <!-- Votre code ici -->
       <div class="container-fluid" style="margin-left: 10%; margin-right: 10%; font-family: 'Arvo', serif;">
         <a class="navbar-brand" href="./index.html">
           <img src="./images/top-logo.png" >
@@ -66,7 +71,10 @@
     <div id="who" class="container text-center">
       <img class="brand-med text-center mt-5" src="./images/academy-brand-med.png"/>
       <h1 class="titre mt-4">WHO WE ARE</h1>
-      <hr class="hr dvder"></hr>
+      <div class="d-flex justify-content-center">
+        <hr class="hr dvder w-25"></hr>
+      </div>
+      
       <p class="mb-5">
         We are <span class="colorRprojet">MASSIVE Academy</span>. We aim to improve education through both method -
         effective project-based learning - and material by teaching skills that are 
@@ -76,24 +84,47 @@
 
     <div id="get-involved" class="text-center">
       <h1 class="titre mt-4 ">GET INVOLVED</h1>
-      <hr class="hr dvder"></hr>
+      <div class="container d-flex justify-content-center">
+        <hr class="hr dvder w-25"></hr>
+      </div>
       <div class="container d-flex justify-content-center">
         <div class="w-25 p-3 text-center">
           <div>
-            <i class="fa-solid fa-circle-user" style="color: #222;"></i>
+            <i class="fa-solid fa-user rounded-circle p-3 fa-4x"></i>
+            <h1 class="titre m-4">STUDENTS</h1>
+            <p>
+              Want to learn how to code? Want to help us get to 1,000,000 lines?
+              Click the button below and we'll let you know how to get involved.
+            </p>
+            <button type="button" class="btn btn-outline-danger">Start Learning »</button>
           </div>
         </div>
         <div class="w-25 p-3 text-center">
-          <i class="fa-solid fa-pen-fancy"></i>
+            <i class="fa-solid fa-pen-fancy rounded-circle p-3 fa-4x"></i>
+            <h1 class="titre m-4">EDUCATORS</h1>
+            <p>
+              Want to bring this initiative to your school or institution? Awesome! Click
+              the button below and we'll make it happen.
+            </p>
+            <button type="button" class="btn btn-outline-danger">Join the initiative »</button>
         </div>
         <div class="w-25 p-3 text-center">
-          <i class="fa-solid fa-money-bill-trend-up"></i>
+            <i class="fa-solid fa-money-bill-trend-up rounded-circle p-3 fa-4x"></i>
+            <h1 class="titre m-4">SPONSORS</h1>
+            <p>
+              We love all the support we get to help host more events and empower more
+              lives with the knowledge of coding. Click to get involved.
+            </p>
+            <button type="button" class="btn btn-outline-danger">Give Support »</button>
         </div>
       </div>
     </div><!-- /#get-involved -->
 
-    <footer>
-      <!-- Votre code ici -->
+    <footer class="p-4 mt-4 colorBgRprojet text-white d-flex justify-content-center">
+      <div class="container">
+        <img class="mt-5" src="./images/top-logo.png" alt="">
+        <p>One Community_ One Million Lines of code_</p>
+      </div>
     </footer>
 
     <div id="back-to-top">

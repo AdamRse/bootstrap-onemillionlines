@@ -1,6 +1,9 @@
 /* Vos customisations des classes de Bootstrap */
 i{
-    color: #222;
+    color: #fff;
+    background-color: #222;
+    width: 100px;
+    height: 100px;
 }
 .colorProjet{
     background-color: #222;
@@ -8,6 +11,17 @@ i{
 }
 .colorRprojet{
     color: #D9534F;
+}
+.colorBgRprojet{
+    background-color: #D9534F;
+}
+.bgColorProject{
+    background-color: #222;
+}
+.cercleIcon{
+    display: inline-block;
+    width: 30%;
+    background-color: #222;
 }
 .titreBandeau{
     font-family: 'Arvo', serif;
@@ -52,8 +66,14 @@ i{
     font-family: 'Arvo', serif;
     font-size: 2rem;
 }
-#who .dvder{
+.dvder{
     border-color: #D9534F;
+}
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
 }
 
 /* Responsive Styling */
