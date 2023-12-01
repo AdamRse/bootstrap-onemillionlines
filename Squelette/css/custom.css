@@ -69,12 +69,19 @@ hr{
 .dvder{
     border-color: #D9534F;
 }
-/* #btn-back-to-top {
+#btn-back-to-top {
     position: fixed;
     bottom: 20px;
     right: 20px;
     display: none;
-} */
+    width: 40px;
+    height: 40px;
+    background-color: #222;
+}
+#btn-back-to-top:hover{
+    cursor: pointer;
+    background-color: #D9534F;
+}
 #get-involved{
     background-color: #f2f2f2;
 }
@@ -103,4 +110,5 @@ hr{
         font-size: 1.5rem;
         background-color: #D9534F;
     }
+    
 }
